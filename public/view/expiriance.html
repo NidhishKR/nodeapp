@@ -1,0 +1,56 @@
+<div class="container-fluid">
+
+  <div class="info">
+    <strong>Resume builder</strong>
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <strong>My personal Info</strong>
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <strong>Expiriance</strong>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="form-group">
+        <label class="control-label col-sm-2 info">Designation :</label>
+        <div class="col-sm-3 info">
+          <input type="text" class="form-control" ng-model="position1" placeholder="Enter position 1">
+        </div>
+        <div class="col-sm-3 info">
+          <input type="text" class="form-control" ng-model="position2" placeholder="Enter position 2">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="form-group">
+        <label class="control-label col-sm-2 info">Company :</label>
+        <div class="col-sm-3 info">
+          <input type="text" class="form-control" ng-model="company1" placeholder="Enter Comapny Name 1">
+        </div>
+        <div class="col-sm-3 info">
+          <input type="text" class="form-control" ng-model="company2" placeholder="Enter Comapny Name 2">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="form-group">
+        <label class="control-label col-sm-2 info">Describe the position :</label>
+        <div class="col-sm-3 info">
+          <textarea class="form-control" ng-model="description1" type="text" placeholder="Describe the activities you have done"></textarea>
+        </div>
+        <div class="col-sm-3 info">
+          <textarea class="form-control" ng-model="description2" type="text" placeholder="Describe the activities you have done"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-offset-5 "><br/>
+        <button ng-click="myFunction2(position1, position2, company1, company2, description1, description2)" class="btn btn-md btn-primary"><a><strong class="submitbtn">Submit</strong></a></button>
+      </div>
+    </div>
+
+  </div>
+
+</div>

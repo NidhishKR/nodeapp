@@ -1,0 +1,83 @@
+<style media="screen">
+  .form-control {
+    width: 50%;
+    text-align: center;
+  }
+</style>
+<div class="bg4">
+  <div class="container-fluid">
+    <div class="loginbox">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <span class="loginText1">Upload Job In</span>
+          <strong class="loginText2"><img src="../images/i2.png" alt="" /></strong>
+        </div>
+        <form>
+          <div class="panel-body">
+            <input type="text" class="loginInput"
+              ng-model="jobUpload.jobType"
+              placeholder="Type of job" required="">
+          </div>
+          <div class="panel-body">
+            <div class="form-group">
+              <select class="loginInput" id="sel1"
+                ng-model="jobUpload.location">
+                <option>Any where</option>
+                <option>All over India</option>
+                <option>Mumbai</option>
+                <option>Kerala</option>
+              </select>
+            </div>
+          </div>
+          <div class="panel-body"> <input type="text" class="loginInput"
+              ng-model="jobUpload.company"
+              placeholder="Company name" required="">
+          </div>
+          <div class="panel-body">
+            <input type="email" class="loginInput"
+              ng-model="jobUpload.email" placeholder="Enter Email"
+              required="">
+          </div>
+          <div class="panel-body">
+            <input type="number" class="loginInput"
+              ng-model="jobUpload.phone" placeholder="Enter Phone Number"
+              required=""> </div>
+          <div class="panel-body">
+            <input type="text" class="loginInput"
+              id="pwd" ng-model="jobUpload.skills"
+              placeholder="Enter skills" required="">
+          </div>
+          <div class="panel-body">
+            <input type="Number" class="loginInput"
+              id="pwd" ng-model="jobUpload.experiance"
+              placeholder="year of experiance"
+              required="">
+          </div>
+          <div class="panel-body">
+            <input type="Number" class="loginInput"
+              id="pwd" ng-model="jobUpload.salary"
+              placeholder="Salary per annual"
+              required="">
+          </div>
+          <div class="panel-body">
+            <input type="Number" class="loginInput"
+              id="pwd" ng-model="jobUpload.workersNeed"
+              placeholder="No Of workers Required"
+              required="">
+          </div>
+          <div class="panel-body">
+            <a href="#newUpdate">
+              <button type="button" class="btn btn-primary active"
+                ng-click="jobUploadFunction(jobUpload)">
+              Upload Now</button>
+            </a>
+          </div>
+        </form>
+        <div class="panel-footer">
+          <a href="#/"><img src="../images/i2.png" alt="">
+          </a>
+          <a href="#"></span class="help">Help?</a>
+      </div>
+    </div>
+  </div>
+</div>

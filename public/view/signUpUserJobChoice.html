@@ -1,0 +1,43 @@
+<div class="bg6">
+  <div class="container-fluid">
+    <div class="loginbox">
+      <div class="panel panel-default">
+        <div class="panel-heading"><span class="loginText1">Enter Your Job</span>
+          <strong class="loginText2"> Preference </strong>
+        </div>
+        <form>
+          <div class="panel-body">
+            <input type="text" class="loginInput" ng-model="signUpUserJobChoice.location"
+            placeholder="Enter location Prefered " required=""
+            />
+          </div>
+          <div class="panel-body">
+            <input type="text" class="loginInput" ng-model="signUpUserJobChoice.company1"
+            placeholder="Enter Your Company Choice 1" required="">
+          </div>
+          <div class="panel-body">
+            <input type="text" class="loginInput" ng-model="signUpUserJobChoice.company2"
+            placeholder="Enter Your Company Choice 2" required="">
+          </div>
+          <div class="panel-body">
+            <input type="text" class="loginInput" ng-model="signUpUserJobChoice.jobType"
+            placeholder="Enter Your job Type" required="">
+          </div>
+          <div class="panel-body">
+            <input type="text" class="loginInput" ng-model="signUpUserJobChoice.salary"
+            placeholder="Enter Your Minimum salary" required="">
+          </div>
+
+          <div class="panel-body">
+            <a ng-href="#myProfile"> <button type="button" class="btn btn-primary active"
+              ng-click="signUpUserJobChoiceFunction(signUpUserJobChoice)">
+              Sign Up</button></a>
+          </div>
+        </form>
+        <div class="panel-footer">
+          <a href="#/"><img src="../images/i2.png" /></a>
+          <a href="#"></span class="help">Help?</a>
+        </div>
+      </div>
+    </div>
+  </div>

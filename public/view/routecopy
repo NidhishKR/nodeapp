@@ -1,0 +1,65 @@
+job.config(function($routeProvider) {
+$routeProvider
+.when("/", {
+        templateUrl : "../view/1stpage.html"
+})
+
+.when("/login", {
+        templateUrl : "../view/login.html",
+        controller :"loginCtrl"
+})
+});
+
+
+
+
+
+<div class=" ">
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+        <a class="navbar-brand," href="#/"> <img src="images/i2.png" alt="" /></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Job<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Advanced Job Search</a></li>
+              <li><a href="#">Jobs By Location</a></li>
+              <li><a href="#">Jobs By Industry</a></li>
+              <li><a href="#">Jobs By Function</a></li>
+              <li><a href="#">Jobs By Company</a></li>
+              <li><a href="#">Jobs By Skills</a></li>
+              <li><a href="#">Expiriance</a></li>
+              <li><a href="#">Salary</a></li>
+              <li><a href="#">Startup JobsNEW</a></li>
+              <li><a href="#">Search Tips</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Resume<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Upload</a></li>
+              <li><a href="#">Create resume</a></li>
+              <li><a href="#">Debug</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Upload Job vacancy</a></li>
+          <li><a href="#">New update</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="signUp.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</div>

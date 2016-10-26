@@ -1,0 +1,44 @@
+<style media="screen">
+  .form-control {
+    width: 50%;
+    text-align: center;
+  }
+</style>
+<div class="bg2">
+  <div class="container-fluid">
+    <div class="loginbox">
+      <div class="panel panel-default">
+        <div class="panel-heading"><span class="loginText1">Already a Member? </span>
+          <strong class="loginText2">Login</strong>
+        </div>
+        <form class="">
+          <div class="panel-body">
+            <input type="email" class="loginInput"
+              ng-model="login.email" placeholder="Enter Email"/>
+          </div>
+          <div class="panel-body">
+            <input type="password" class="loginInput"
+              id="pwd" ng-model="login.password"
+              placeholder="Enter password"/>
+          </div>
+          <div class="panel-body">
+            <input type="checkbox"><span>RememberMe</span>
+          </div>
+          <div class="panel-body">
+            <button type="button" class="btn btn-primary info"
+              ng-click="verification(login)">
+              login Here</button
+          </div>
+
+        </form>
+        <div class="panel-footer">
+          <a href="#">Forget Password?</a>
+        </div>
+        <div class="panel-footer">
+          <a href="#/"><img src="../images/i2.png" alt="" />
+          </a>
+          <a href="#"></span class="help">Help?</a>
+        </div>
+    </div>
+  </div>
+</div>

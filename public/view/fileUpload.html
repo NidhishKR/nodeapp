@@ -1,0 +1,37 @@
+<div class="bgUpload">
+  <div class="container-fluid">
+    <div class="loginboxUpload">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <span class="loginText1">Share data with</span>
+          <strong class="loginText2"><img src="../images/i2.png" alt="" /></strong>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-sm-3">
+              <label for="file" class="uploadLabel">Resume:</label>
+            </div>
+            <div class="col-sm-4">
+              <input type = "file" name="file" file-model = "myFile[1]"/>
+            </div>
+          </div>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-sm-3">
+              <label for="file" class="uploadLabel">Photo:</label>
+            </div>
+            <div class="col-sm-4">
+              <input type = "file" name="file" file-model = "myFile[0]"/>
+            </div>
+          </div>
+        </div>
+        <div class="panel-body">
+          <button type="button" class="btn btn-primary active"
+            ng-click="uploadFile()">Upload File
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

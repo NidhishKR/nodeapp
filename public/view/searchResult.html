@@ -1,0 +1,48 @@
+<div class="bg5">
+  <div class="container-fluid">
+    <div class="row, jobDetails">
+      <div class="col-sm-2, searchNewUpda">
+        <div class="panel-body"> <input type="text" class="form-control"
+            ng-model="jobUpload.company" placeholder="Search a Job Based on a given data">
+        </div>
+        <div class="panel-body">
+          <div class="searchbtnJob">
+            <a href="#searchResult"><button type="button" class="btn btn-info"
+                ng-click="searchFunction(search)">
+                <span class="glyphicon glyphicon-search"></span>Search Combination</button></a>
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-10, table-responsive">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>COMPANY</th>
+                <th>SECTION</th>
+                <th>LOCATION</th>
+                <th>SKILLS</th>
+                <th>EXPERIENCE</th>
+                <th>SALARY</th>
+                <th>EMPLOYES</th>
+              </tr>
+            </thead>
+            <tbody ng-repeat="x in job track by $index">
+                <tr>
+                  <th>{{$index+1}}</th>
+                  <td>{{job[0][$index].company}}</td>
+                  <td>{{job[0][$index].jobType}}</td>
+                  <td>{{job[0][$index].location}}</td>
+                  <td>{{job[0][$index].skills}}</td>
+                  <td>{{job[0][$index].experiance}}</td>
+                  <td>{{job[0][$index].salary}}</td>
+                  <td>{{job[0][$index].workersNeed}}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

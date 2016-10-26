@@ -1,0 +1,67 @@
+<div class="bg5">
+  <div class="container-fluid">
+    <div class="row, jobDetails">
+      <div class="searchNewUpda">
+        <div class="panel-body">
+          <form class="form-inline">
+            <div class="form-group">
+              <input type="text" class="form-control"
+               ng-model="serachInput.field" placeholder="enter your Search Data">
+             </input>
+            </div>
+            <div class="form-group">
+              <select class="loginInput" id="sel1"
+                ng-model="serachInput.type">
+                <option>company</option>
+                <option>jobType</option>
+                <option>location</option>
+                <option>skills</option>
+                <option>experiance</option>
+                <option>salary</option>
+                <option>workersNeed</option>
+              </select>
+            </div>
+          </form>
+        </div>
+        <div class="searchbtnJob">
+          <button type="button" class="btn btn-info" ng-click="newUpdateSearchFunction(serachInput)">
+            <span  class="glyphicon glyphicon-search"></span>Search</button>
+        </div>
+      </div>
+      <div class="col-sm-12, table-responsive">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>COMPANY</th>
+                  <th>JOB TYPE</th>
+                  <th>LOCATION</th>
+                  <th>SKILLS</th>
+                  <th>EXPERIENCE</th>
+                  <th>SALARY</th>
+                  <th>WORKERS NEED</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr ng-repeat="x in job ">
+                  <td>{{x._id}}</td>
+                  <td>{{x.company}}</td>
+                  <td>{{x.jobType}}</td>
+                  <td>{{x.location}}</td>
+                  <td>{{x.skills}}</td>
+                  <td>{{x.experiance}}</td>
+                  <td>{{x.salary}}</td>
+                  <td>{{x.workersNeed}}</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="paginationStyle">
+              <ul uib-pagination total-items="maxSize"
+                ng-model="currentPage" items-per-page="numPerPage"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

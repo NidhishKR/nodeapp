@@ -1,0 +1,124 @@
+.resumeBg1 {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+
+.colornav {
+  color: black;
+  background-color: rgb(76, 93, 107);
+  border-color: rgb(76, 93, 107);
+}
+
+.headli {
+  background-color: white;
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+}
+
+.sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+}
+
+.sidebar-nav .navbar li {
+    float: none;
+    display: block;
+}
+
+.sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.active {
+    background-color: rgb(76, 93, 107);
+  }
+}
+
+.bg2 {
+  background-color: #ffffff;
+  height:1110px:
+}
+
+.myresume {
+  margin-bottom: 20px;
+  background: #ff6d69;
+
+    font-weight: bolder;
+}
+
+.myreume:hover {
+    background:  #ff4d4d;
+}
+.myresumelink {
+  font-weight: bolder;
+  background: #ff6d69;
+  box-shadow: 0 2px 0 #d75c57;
+  -moz-box-shadow: 0 2px 0 #d75c57;
+  font-size: 20px;
+  color: 	#5F9EA0;
+  text-decoration: none;
+
+}
+
+.myresumelink:hover {
+  color: #F0FFFF;
+  box-shadow: 0 2px 0 #d75c57;
+  -moz-box-shadow: 0 2px 0 #d75c57;
+}
+s
+.windowoption {
+    font-weight: bolder;
+    background-color: #000000;
+}
+
+.windowoption:hover {
+  background-color: #00FFFF;
+}
+
+ .windowlink {
+   color: #F0F8FF;
+ }
+
+.windowlink:hover{
+  color: #000000;
+}
+
+.builder {
+  color: #008B8B;
+}
+
+.sidenav{
+  height:100%;
+}
+
+.info {
+  margin: 20px;
+}
+
+.submitbtn {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+  .info{
+    margin-bottom: 10px;
+}
+  .sidenav{
+    height: 10%;
+    }
+  }
+
+  .templateSelect:hover {
+    color: #000000;
+  }

@@ -1,0 +1,60 @@
+.bg {
+background: rgb(81, 93, 107);
+text-align: left;
+height: 634px;
+
+}
+@media screen and (max-width: 868px) {
+    .col-sm-2, .col-sm-10 {
+        text-align: left;
+        width: 220px;
+
+    }
+  }
+
+
+.myName {
+    color: #ffffff;
+    font-family: sans-serif;
+    margin-top: 21px;
+    font-weight:bold;
+    font-size: 22px;
+}
+
+.desig {
+  color:#ffffff;
+  font-family: monospace;
+  margin-top: 5px;
+  font-size: 16px;
+  font-family: serif;
+}
+
+.image {
+  margin-top: 7px;
+}
+
+.personalData {
+    color:#ffffff;
+    font-family: serif;
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+.data {
+  color: #ffffff;
+  font-family: fantasy;
+  margin-top: 10px;
+}
+
+.details {
+  font-family: fantasy;
+  margin-top: 4px;
+
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.head1 {
+  font-size: 23px;
+
+}

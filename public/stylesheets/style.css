@@ -1,0 +1,232 @@
+.bg {
+  background: url("../images/2.jpg") 50% 41% / cover no-repeat ;
+  margin-top: -21px;
+  height: 516px;
+  border-bottom:6px solid #f3875d;
+}
+
+ .caption {
+   color: #F0F8FF;
+   text-align: center;
+   margin-top: 10%;
+
+ }
+
+.caption1 {
+  color: #F0F8FF;
+  text-align: center;
+}
+
+.search {
+  margin-left: 25%;
+
+  width: 50%;
+
+}
+
+.col-sm-16 {
+  width: 100%;
+}
+@media (max-width: 764px) {
+  .search {
+    margin-left: 3%;
+
+
+  }
+}
+
+@media (max-width: 360px) {
+  .search {
+  width:
+
+  }
+
+  .col-sm-16 {
+  width: 20%;
+}
+
+
+}
+
+
+@media (max-width: 1239px) {
+  .search {
+    margin-left: 18%;
+    }
+  .col-sm-16 {
+  width: 155.2%;
+}
+
+}
+
+
+
+.searchbtn {
+  margin-top: 12px;
+  text-align: center;
+  margin-right: 6%;
+}
+
+.searchtxt {
+  padding-left: 20px;
+}
+
+.loginbox {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  border:1px solid #D3D3D3;
+  border-radius: 10px;
+  background-color: #7FFFD4;
+}
+
+@media (min-width: 1239px) {
+  .loginbox {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
+
+.loginInput {
+  height: 35px;
+  width: 80%;
+  border-radius: 7px;
+  border: 1px solid #696969;
+
+}
+
+.loginText1 {
+  color: #483D8B;
+  font-size: 30px;
+}
+
+
+.loginText2 {
+  color: #008B8B;
+  font-size: 30px;
+}
+
+ .help {
+   margin-left: 38px;
+   padding: 12px;
+ }
+
+.signUpBtn {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.signText1 {
+  color: #483D8B;
+  font-size: 15px;
+}
+
+.signText2 {
+  color: #008B8B;
+  font-size: 15px;
+}
+
+.bg1 {
+  background: url("../images/1.jpg") 50% 41% / cover no-repeat ;
+  border-bottom:6px solid #f3875d;
+  margin-top: -21px;
+}
+
+.bg2 {
+    background: url("../images/7.jpg") 50% 41% / cover no-repeat ;
+    height: 590px;
+    border-bottom:6px solid #f3875d;
+    margin-top: -21px;
+}
+
+.bg3 {
+    background: url("../images/9.jpg") 50% 41% / cover no-repeat ;
+    height: 607px;
+    border-bottom:6px solid #f3875d;
+    margin-top: -21px;
+}
+
+.adminText1 {
+  text-align: center;
+  font-size: 30px;
+  border-top: 20%;
+}
+
+
+.bg4 {
+    background: url("../images/11.jpg") 50% 41% / cover no-repeat ;
+    height: 945px;
+    border-bottom:6px solid #f3875d;
+    margin-top: -21px;
+}
+.bg5 {
+    background: 50% 41% / cover no-repeat ;
+    background-color:  #A9A9A9;
+    /*height: 600px;*/
+    border-bottom:6px solid #f3875d;
+    margin-top: -21px;
+}
+.jobDetails {
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
+  }
+
+
+.jobSlectionHead {
+  color: #008B8B;
+}
+.searchNewUpda {
+  text-align: center;
+}
+.searchbtnJob {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.tableData {
+  text-align: center;
+}
+
+.paginationStyle {
+  text-align: center;
+}
+
+.bgUpload {
+    background: url("../images/12.jpg") 50% 41% / cover no-repeat ;
+    height: 590px;
+    border-bottom:6px solid #f3875d;
+    margin-top: -21px;
+}
+
+.uploadLabel {
+  margin-top: 2px;
+  margin-left: 20px;
+}
+
+.loginboxUpload {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 60%;
+  margin-right: 2%;
+  border:1px solid #D3D3D3;
+  border-radius: 10px;
+  background-color: #7FFFD4;
+}
+
+.uploadFile {
+  margin-left: 46px;
+}
+
+.bg6 {
+    background: url("../images/13.png")50% 41% / cover no-repeat ;
+    background-color:  #A9A9A9;
+    /*height: 600px;*/
+    border-bottom:6px solid #f3875d;
+    margin-top: -21px;
+}

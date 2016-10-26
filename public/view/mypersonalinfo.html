@@ -1,0 +1,79 @@
+<div class="container-fluid">
+
+  <div class="info">
+    <strong>Resume builder</strong><span class="glyphicon glyphicon-chevron-right"></span>
+    <strong>My personal Info</strong>
+  </div>
+  <div class="container-fluid">
+
+    <div class="row ">
+      <div class="form-group" >
+        <label class="control-label col-sm-2 info">Name:</label>
+        <div class="col-sm-4 info">
+          <input type="Name" class="form-control" ng-model="name" placeholder="Enter name">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="form-group">
+        <label class="control-label col-sm-2 info">Designation:</label>
+        <div class="col-sm-4 info">
+          <input type="text" class="form-control" ng-model="desig" placeholder="Enter Designation">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="form-group">
+        <label class="control-label col-sm-2 info">DOB  <span class="glyphicon glyphicon-calendar"></span>:</label>
+
+
+
+  <div class="col-sm-3 info">
+    <input type="date" class="form-control" ng-model="dob" placeholder="DD/MM/YY">
+
+  </div>
+</div>
+</div>
+<div class="row">
+
+ <div class="form-group">
+   <label class="control-label col-sm-2 info">Email:</label>
+     <div class="col-sm-4 info">
+       <input style="text-transform: none !important" type="email" class="form-control" ng-model="email" placeholder="Enter email">
+     </div>
+ </div>
+</div>
+
+<div class="row">
+<div class="form-group">
+   <label class="control-label col-sm-2 info">Phone:</label>
+   <div class="col-sm-4 info">
+     <input type="text" class="form-control" ng-model="phone" placeholder="Enter Phone Number">
+   </div>
+ </div>
+</div>
+
+<div class="row">
+
+
+ <div class="form-group">
+   <label class="control-label col-sm-2 info">Intrests:</label>
+   <div class="col-sm-2 info">
+     <input type="text" class="form-control" ng-model="intrest1" placeholder="Intrest 1">
+   </div>
+   <div class="col-sm-2 info">
+     <input type="text" class="form-control" ng-model="intrest2" placeholder="Intrest 2">
+   </div>
+   </div>
+ </div>
+<div class="row">
+ <div class="col-sm-offset-5 "><br/>
+   <button ng-click="myFunction1(name, desig, dob, email, phone, intrest1, intrest2)" class="btn btn-md btn-primary">
+     <a><strong class="submitbtn">Submit</strong></a></button>
+
+</div>
+</div>
+  </div>
+</div>

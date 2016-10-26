@@ -1,0 +1,39 @@
+<div class="bg3">
+  <div class="container-fluid">
+    <div class="loginbox">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <div class="adminText1"> <strong>Admin of <img src="../images/i2.png" alt="" /> ?</strong> </div>
+          <div class="">
+            <button type="button" class="btn btn-primary active" ng-model="yes"
+            data-toggle="collapse" data-target="#yes">Yes ? click me</button>
+            <button type="button" class="btn btn-primary active" ng-model="no"
+            data-toggle="collapse" data-target="#no">No ?  Click me</button>
+            <span class="loginText2"> </span>
+          </div>
+        </div>
+        <div class="panel-body">
+          <form class="collapse" id="yes">
+            <div class="panel-body"> <input type="text" class="loginInput" ng-model="loginAdmin.username" placeholder="Enter Email"> </div>
+            <div class="panel-body">
+            <input type="password" class="loginInput" id="pwd" ng-model="loginAdmin.password" placeholder="Enter password">              </div>
+            <div class="panel-body"> <input type="checkbox"><span>RememberMe</span> </div>
+            <div class="panel-body"> <button type="button" class="btn btn-primary active" ng-click="loginAdminFunction(loginAdmin)">
+                 Login Here</button> </div>
+            <div class="panel-body"> <a ng-href='#{{jobUpload}}'>Upload Job / Search</a> </div> {{msg}} </form>
+          <div class="collapse" id="no">
+            <div class="panel-body"> Sent company details and job details to the below Email adress. </div>
+            <div class="panel-body">
+              <input type="email" class="loginInput" ng-model="signUpAdmin.email" placeholder="SquardhlpHVFGtyfy@gmail">
+            </div>
+            <div class="panel-body">
+              <a href="https://mail.google.com"><button type="button" class="btn btn-primary active">
+                Sent</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="panel-footer"> <span class="signText1">For Disable contant click on same button once more</span> </div>
+      </div>
+    </div>
+  </div>
+</div>

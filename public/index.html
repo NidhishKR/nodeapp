@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>JoB</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+  <script type="text/javascript" src="ui.js">
+  </script>
+  <script type="text/javascript" src="javascripts/jobportal.js"></script>
+  <link rel="stylesheet" href="stylesheets/style.css" media="screen" title="no title" charset="utf-8"> </head>
+  <script type="text/javascript" src= "">
+
+  </script>
+
+<body ng-app="jobportal">
+  <div class=" ">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+          <a class="navbar-brand," href="#/"> <img src="images/i2.png" alt="" /></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#/">Job</a>
+              <ul class="dropdown-menu">
+                <li><a href="#newUpdate">Advanced Job Search</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#resume">Resume</a>
+              <ul class="dropdown-menu">
+                <li><a href="#upload">Upload</a></li>
+                <li><a href="http://localhost:8004/html/resume/resume1.html#/" target="_blank">Create resume</a></li>
+                <li><a href="#debug">Debug</a></li>
+                <li><a href="#myResume">view myReume</a></li>
+              </ul>
+            </li>
+            <li><a href="#admin">Upload Job vacancy</a></li>
+            <li><a href="#newUpdate">New update</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#signUp"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li class="dropdown"> <a href="#/" class="dropdown-toggle" data-toggle="dropdown">
+              <span class="glyphicon glyphicon-log-out">Sign Out</span></a>
+              <ul class="dropdown-menu">
+                <li ng-click = "deleteCookies()">
+                  <a href="#/">
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal"
+                    data-target="#logOutAlert">
+                      <span class="glyphicon glyphicon-log-out"></span>Log out
+                    </button>
+                  </a>
+                </li>
+                <li ng-click = "deleteAccount()">
+                  <a href="#/ffhgg">
+                    <button type="button" class="btn btn-info btn-sm">
+                      <span class="glyphicon glyphicon-remove"></span>Remove
+                    </button>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div ng-view> </div>
+</body>
+
+</html>
