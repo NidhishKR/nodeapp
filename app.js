@@ -23,7 +23,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/users', users);
-mongoose.connect('mongodb://localhost/JobPortalMyapp');
+mongoose.connect('mongodb://mongo/JobPortalMyapp');
 var storage = multer.diskStorage({
   destination: './uploads/',
   filename: function (req, file, cb) {
